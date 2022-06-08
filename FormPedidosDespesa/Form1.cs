@@ -96,5 +96,10 @@ namespace FormPedidosDespesa
             listDespesas.Items.Clear();
             listPedidos.Items.Clear();
         }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

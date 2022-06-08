@@ -357,6 +357,7 @@
             this.btnFechar.TabIndex = 12;
             this.btnFechar.Text = "Fechar o Sistema";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // Form1
             // 
